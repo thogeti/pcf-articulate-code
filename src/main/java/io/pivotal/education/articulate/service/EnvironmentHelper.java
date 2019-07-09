@@ -54,7 +54,7 @@ public class EnvironmentHelper {
     modelMap.put("applicationServices", services);
     String javaVersion = System.getProperty("java.version");
     logger.debug("Java Version (unfiltered): {}", javaVersion);
-
+//praveen T
     int pos = javaVersion.indexOf("-");
     if (pos > -1) {
       javaVersion = javaVersion.substring(0, pos);
