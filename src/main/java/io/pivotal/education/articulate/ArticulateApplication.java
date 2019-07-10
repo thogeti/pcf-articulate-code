@@ -33,7 +33,7 @@ public class ArticulateApplication {
   public static void main(String[] args) {
     SpringApplication.run(ArticulateApplication.class, args);
   }
-//Praveen T
+//Praveen T 0710
   @Bean
   public RestTemplate restTemplate() {
     ObjectMapper mapper = new ObjectMapper();
